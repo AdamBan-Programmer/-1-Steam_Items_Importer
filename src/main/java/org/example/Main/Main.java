@@ -57,7 +57,7 @@ public class Main extends SQL_Operations {
             ArrayList<Item> newSteamItems = steamApiController.importSteamItems(itemsImported, itemsAmount - itemsImported);
             steamItems.addAll(newSteamItems);
             itemsImported = index * packageSize + steamItems.size();
-            System.out.println("Items Imported:" + itemsImported + "  Packet: " + (index+1));
+            System.out.println("Items Imported:" + itemsImported + "  Package: " + (index+1));
 
             if (itemsImported == itemsAmount) {
                 break;
