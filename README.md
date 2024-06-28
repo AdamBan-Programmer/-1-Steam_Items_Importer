@@ -1,14 +1,14 @@
 # Steam Items Importer:
-It's a simple script to import steam items (CS2) into database. It's a 1 of 3 parts of my project where i created an application for traders on steam market. Main application was written in Android java. You can add items which you want to observe. Observed items prices update every 10minutes. It helps to buy and sell an items in optimal moments. 
+It's a simple script to import steam items (CS2) into database. It's a 1 of 3 parts of my project where i created an application for traders on steam market. Main application was written in Android java. You can add items which you want to observe. Item price updates time depends on how many items you have added to observe. It helps to buy and sell an items in optimal moments. 
 
 # About:
-- I created this app to make better decision's on steam market. In this code i used Spring Boot and Hibernate framework. I had to create my own database using MariaDB and phpmyadmin. This application imports items using Steam API and sends it into database. 
+- I created this app to make better decisions on Steam market. In this code i used Spring Boot and Hibernate framework. I had to create my own database using MariaDB and phpmyadmin. This application imports items using Steam API and sends it into database. 
 
 # How to use:
 1. Create your database.
-2. Modify database name and columne's names in code.
-3. click 'code' and 'download ZIP'
-4. Unpack ZIP folder and open it into Intellij.
+2. click 'code' and 'download ZIP'
+3. Unpack ZIP folder and open it into Intellij.
+4. Modify database name and columne's names in code.
 5. Build an artifact.
 6. Create bash script.
 7. Run jar file with starting parameters in the Command Line.
